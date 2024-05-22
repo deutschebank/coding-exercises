@@ -1,0 +1,40 @@
+[{
+  "id": 1,
+  "title": "Cocker Spaniel",
+  "subtitle": "Dog Breed",
+  "imageUrl": "assets/images/istockphoto-1387.png",
+  "description": "The Cocker Spaniel, beloved for its sweet temperament and beautiful appearance, is a medium-sized dog breed. Whether exploring a back garden, park, or countryside, the Cocker Spaniel is happiest with its nose glued to the ground.",
+  "liked": false
+},
+{
+  "id": 2,
+  "title": "Cockapoo",
+  "subtitle": "Dog Breed",
+  "imageUrl": "assets/images/istockphoto-1402.png",
+  "description": "The Cockapoo is a delightful crossbreed resulting from the union of a Cocker Spaniel and a Poodle. ockapoos are little comedians with a sweet temperament and a zest for life. They thrive on social interaction and get along well with other pets and children.",
+  "liked": false
+},
+{
+  "id": 3,
+  "title": "Jack russell terrier",
+  "subtitle": "Dog Breed",
+  "imageUrl": "assets/images/istockphoto-1435.png",
+  "description": "The Jack Russell Terrier is a small but solid and spunky breed, standing only about a foot tall, yet packing plenty of personality and adventure into their compact, muscular bodies. These agile dogs serve as both hunting companions and fun-loving family pets, with surprising stamina and willpower, making them a challenge for novice dog owners.",
+  "liked": false
+},
+{
+  "id": 4,
+  "title": "White Dog",
+  "subtitle": "Dog Breed",
+  "imageUrl": "assets/images/istockphoto-1451.png",
+  "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.",
+  "liked": false
+},
+{
+  "id": 5,
+  "title": "Weimaraner Puppy",
+  "subtitle": "Dog Breed",
+  "imageUrl": "assets/images/istockphoto-1482.png",
+  "description": "Weimaraner puppies are a breed of dog that embodies elegance, intelligence, and boundless energy. With their sleek silver-gray coat, striking amber or blue-gray eyes, and athletic build, they are instantly recognizable and have captured the hearts of dog lovers around the world.",
+  "liked": false
+}]

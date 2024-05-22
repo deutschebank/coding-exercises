@@ -1,0 +1,18 @@
+server:
+  port: 3000
+  servlet.context-path: /exchange-rates/api/v1
+
+spring:
+  datasource:
+    url: jdbc:h2:file:./h2-data
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    open-in-view: false
+    show-sql: true
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+
+  main.banner-mode: "off"
