@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  database:
+    image: postgres:16-alpine
+    ports:
+      - 5432:5432
+    restart: always
+    volumes:
+      - ./test-fixtures:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_PASSWORD: shh-🤫
