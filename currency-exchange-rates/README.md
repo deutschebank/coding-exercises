@@ -16,9 +16,12 @@ The tasks will be presented to you by our interviewer.
 
 ```./gradlew bootRun``` will start the app on port ```3000```.
 
+For hot-reloading during development run ```./gradlew -t :bootJar``` on a separate command line.
+
 Run ```curl http://localhost:3000/exchange-rates/api/v1/health``` to check a preconfigured health endpoint.
 
-Application is configured to use H2 in-memory database; database is already populated with all currencies and random
-exchange rates for all possible currency combinations.
+## H2 in-memory database
 
-For hot-reloading during development run ```./gradlew -t :bootJar``` on a separate command line.
+* application is configured to use H2 in-memory database
+* database is already populated with all currencies and random exchange rates for all possible currency combinations
+* [H2 web console](http://localhost:3000/exchange-rates/api/v1/h2-console/) is enabled
