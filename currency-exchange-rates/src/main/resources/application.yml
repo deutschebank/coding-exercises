@@ -11,7 +11,8 @@ spring:
   jpa:
     open-in-view: false
     show-sql: true
-    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate.dialect: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
 

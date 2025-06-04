@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CurrencyEndpoint {
+public class CurrencyController {
 
     @GetMapping("/health")
     public ResponseEntity<String> health() {
