@@ -60,10 +60,10 @@
       "builder": "@angular-devkit/build-angular:dev-server",
       "configurations": {
           "production": {
-          "browserTarget": "online-bank-account:build:production"
+            "buildTarget": "online-bank-account:build:production"
           },
           "development": {
-          "browserTarget": "online-bank-account:build:development"
+            "buildTarget": "online-bank-account:build:development"
           }
       },
       "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
       "extract-i18n": {
       "builder": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-          "browserTarget": "online-bank-account:build"
+        "buildTarget": "online-bank-account:build"
       }
       },
       "test": {
@@ -97,5 +97,8 @@
       }
     }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

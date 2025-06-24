@@ -6,7 +6,7 @@ The tasks will be presented to you by our interviewer.
 
 ## Prerequisites
 
-The project requires Angular 16 and has been generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+The project requires Angular 18 and has been generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.
 
 ## Development server
 

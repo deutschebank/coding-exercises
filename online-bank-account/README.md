@@ -6,7 +6,7 @@ The specific tasks will be presented to you by our interviewer.
 
 ## Prerequisites
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.19.
 
 ## Development server
 

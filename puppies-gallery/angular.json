@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "puppies-gallery:build:production"
+              "buildTarget": "puppies-gallery:build:production"
             },
             "development": {
-              "browserTarget": "puppies-gallery:build:development"
+              "buildTarget": "puppies-gallery:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "puppies-gallery:build"
+            "buildTarget": "puppies-gallery:build"
           }
         },
         "test": {
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
